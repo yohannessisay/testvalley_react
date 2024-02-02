@@ -4,11 +4,9 @@ import {  useEffect, useState } from "react";
 const Categories=()=>{
     const [data, setData] = useState([]);
 
-    useEffect(() => {
-      // Mock API endpoint for demonstration purposes
+    useEffect(() => { 
       const apiUrl = "https://api.testvalley.kr/main-shortcut/all";
-  
-      // Fetch data from the API
+   
       fetch(apiUrl)
         .then((response) => response.json())
         .then((result) => setData(result))

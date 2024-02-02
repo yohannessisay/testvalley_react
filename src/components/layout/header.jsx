@@ -11,8 +11,7 @@ const Header = () => {
           placeholder="Search"
           className="py-2 px-8 border rounded-md text-gray-800 placeholder-gray-500 focus:outline-none focus:ring focus:border-blue-300 transition-colors"
         />
-        <button className="absolute left-2">
-          {/* Magnifying glass icon */}
+        <button className="absolute left-2"> 
           <span role="img" aria-label="search-icon">
             🔍
           </span>
